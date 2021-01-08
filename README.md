@@ -1,3 +1,20 @@
+# Welcome to Quickway delivery application documentation
+
+## Description
+
+This is a delivery web-base app for transporting packages, parcel or goods to Customers. Customers should oversee parcel packaging. Quickway will connect Customers and Courier Service Provider for delivery process from within a state or inter state delivery
+
+## Features
+
+#### Public page
+
+- Home/Index page
+- Contact or chat bot
+- About page Privacy policy page
+- Terms of service
+- Signup/ Sign-in page
+- Support
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +85,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contribute
+
+This project is completely open source. We welcome anybody who
+will like to contribute to this project.
+Please contact us first to discussing your contribution at: seanamos98@gmail.com
+
+- Issue Tracker: https://github.com/seanamos98/quick-way/issues
+- Source Code: https://github.com/seanamos98/quick-way
+
+## Support
+
+If you are having issues, Please let us know.
+We have a mailing list loocated at: seanamos98@gmail.com
+
+## License
+
+The project is licensed under the MIT licensed
