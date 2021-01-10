@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* BG: #9e8f05
+CL:  #34e8eb */
 .app {
-  text-align: center;
+  height: 100%;
 }
