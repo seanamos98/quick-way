@@ -1,11 +1,8 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// components import
-import Footer from "./components/Footer/Footer";
+// pages and components import
 import Header from "./components/Header/Header";
-
-// pages import
 import Home from "./pages/Home/Home";
 
 function App() {
@@ -19,7 +16,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <Footer />
     </div>
   );
 }

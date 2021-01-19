@@ -1,4 +1,5 @@
 import React from "react";
+import "./Sidebar.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import Divider from "@material-ui/core/Divider";
@@ -29,7 +30,7 @@ export default function DrawerApp(props) {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className="sidebar">
       <Drawer
         open={props.value}
         className={classes.drawer}
@@ -43,8 +44,7 @@ export default function DrawerApp(props) {
           </IconButton>
         </div>
         <Divider />
-        <nav className="">
-          <h1>Hello Ps</h1>
+        <nav className="sidebar__nav">
           <ul>
             <li>
               <a href="/">Hello word</a>

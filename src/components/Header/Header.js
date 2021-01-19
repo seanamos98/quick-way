@@ -24,8 +24,9 @@ const Header = () => {
       <header className="header">
         <div className="header__logo">
           <Link to="/" style={useStyle}>
-            <h1>QW</h1>
-            {/*  */}
+            <span className="header__logoSpan">QW</span>
+            <span>qickway</span>
+            {/*logo here  */}
           </Link>
         </div>
         <div className="header__search">
@@ -40,23 +41,30 @@ const Header = () => {
         <nav className="header__nav">
           <ul>
             <li>
-              <Link style={useStyle}>Item1</Link>
+              <Link to="/" style={useStyle}>
+                Item1
+              </Link>
             </li>
             <li>
-              <Link style={useStyle}>Item1</Link>
+              <Link to="/" style={useStyle}>
+                Item2
+              </Link>
             </li>
             <li>
-              <Link style={useStyle}>Item1</Link>
+              <Link to="/" style={useStyle}>
+                Item3
+              </Link>
             </li>
             <li>
-              <Link style={useStyle}>Item1</Link>
+              <Link to="/" style={useStyle}>
+                Item4
+              </Link>
             </li>
           </ul>
         </nav>
         <div className="header__menu">
           <IconButton
             edge="start"
-            // className={classes.menuButton}
             color="inherit"
             aria-label="menu"
             onClick={() => setOpen(!open)}

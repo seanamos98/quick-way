@@ -1,11 +1,14 @@
+:root {
+  --main-color: #9e8f05;
+  --subMain-color: #34e8eb;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BG: #9e8f05
-CL:  #34e8eb */
 .app {
   height: 100%;
 }
